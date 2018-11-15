@@ -1,0 +1,67 @@
+
+/*Comment: Regarding the navigation bar, I manage to get rid of the dots next 
+to each list item, however when I try and use the display: inline command
+on either the NAV tag, the listLink class or the list items, it seems not
+to work and messes with the original formatiing, like it removes the 
+background orange colour that I assigned*/
+
+.mainNav {
+
+ float: left;
+
+}
+
+.listLinks	{
+
+    list-style-type: none;
+    margin: 0;
+    padding: 3px
+    font-family: arial;
+    background-color: #F63F00;
+    font-size: 15px;
+	}
+
+.listLinks	a {
+	display: inline;
+    color: black;
+    text-decoration: none;
+
+	}
+
+
+/*Comment: I tried the float and resizing using the id of the image to try and 
+align the image as per the below*/
+
+#art1 {
+
+	float: left;
+    width: 32.4%;
+    height: auto;
+}
+
+.articlPics {
+
+  float: left;
+    width: 32.4%;
+    height: auto;
+}
+
+
+/*I also tried the float and resizing using the classes as per the below*/
+
+.articleHeadings	{
+
+float: left;
+    width: 32.4%;
+    height: auto;
+}
+
+.moreButton	{
+
+float: left;
+    width: 32.4%;
+    height: auto;
+
+}
+
+
